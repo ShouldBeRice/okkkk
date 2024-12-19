@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chương trình DOL IELTS Junior</title>
+
+    <style>
+      /* Reset CSS */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Thiết lập chung */
+      body {
+        background-color: #fff8f1;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 50px 20px;
+      }
+
+      /* Phần nội dung bên trái */
+      .content {
+        width: 45%;
+      }
+
+      .content h1 {
+        font-size: 2.5rem;
+        color: #2d2d2d;
+        line-height: 1.2;
+      }
+
+      .highlight {
+        background-color: #ffe4c3;
+      }
+
+      .content p {
+        margin: 20px 0;
+        font-size: 1.1rem;
+        color: #555;
+      }
+
+      ul {
+        list-style: none;
+        margin: 20px 0;
+      }
+
+      ul li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 20px;
+        background-color: #e63946;
+        color: #fff;
+        padding: 12px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .btn:hover {
+        background-color: #c72c3f;
+      }
+
+      /* Phần hình ảnh lớn bên phải */
+      .image-section {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .large-image {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      /* Media Query cho màn hình nhỏ (điện thoại) */
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column; /* Chuyển sang cột dọc */
+          padding: 20px;
+        }
+
+        .image-section {
+          order: -1; /* Đưa hình ảnh lên đầu */
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        .large-image {
+          max-width: 100%;
+          border-radius: 0; /* Ảnh full-width cho điện thoại */
+        }
+
+        .content {
+          width: 100%;
+          text-align: center; /* Căn giữa nội dung */
+        }
+
+        .content h1 {
+          font-size: 2rem;
+        }
+
+        .btn {
+          padding: 10px 15px;
+        }
+      }
+
+      .back {
+        width: 100px;
+        background-color: #007bff;
+        text-align: center;
+        border-radius: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .back2 {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        font-family: "Arial", sans-serif;
+        cursor: pointer;
+      }
+      .back:hover {
+        background-color: #0056b3;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="back"><a class="back2" href="../home.html">Back</a></div>
+    </header>
+    <div class="container">
+      <!-- Phần nội dung bên trái -->
+      <div class="content">
+        <h1>
+          <span class="highlight">Flappy Bird</span>
+        </h1>
+
+        <ul></ul>
+        <a href="gamee.html" class="btn">Chơi game!</a>
+      </div>
+
+      <!-- Phần hình ảnh lớn bên phải -->
+      <div class="image-section">
+        <img src="0iCOTW7U.jpg" alt="Học viên" class="large-image" />
+      </div>
+    </div>
+    <div class="container">
+      <!-- Phần nội dung bên trái -->
+      <div class="content">
+        <h1>
+          <span class="highlight">Matching Vocabulary Game</span>
+        </h1>
+
+        <ul></ul>
+        <a href="#" class="btn">Chơi game!</a>
+      </div>
+
+      <!-- Phần hình ảnh lớn bên phải -->
+      <div class="image-section">
+        <img
+          src="CUP-Year-3-French-The-Weather-Matching-Game-Image-1024x576.png"
+          alt="Học viên"
+          class="large-image"
+        />
+      </div>
+    </div>
+  </body>
+</html>
